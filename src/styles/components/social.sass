@@ -1,0 +1,28 @@
+@use '../variables'
+@use '../modules' 
+    
+#social-networks
+    @include modules.center
+    gap: 1rem
+    margin: 1rem 0
+
+    .social-btn
+        padding: .6em
+        background-color: variables.$body-background-color
+        border-radius: variables.$card-border-radius
+        color: #333
+        font-size: 1.3rem
+        @include modules.center
+
+    #linkedin
+        color: #0072b1
+
+    #github
+        color: #0a0a0a
+
+    :hover
+        background: variables.$gradient
+        > svg
+            color: variables.$text-color
+
+        

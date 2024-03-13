@@ -1,0 +1,32 @@
+@use '../variables'
+@use '../modules'
+
+#header
+    background-color: variables.$background-color
+    border-radius: variables.$container-border-radius
+    display: flex
+    flex-direction: column
+    align-items: center
+    text-align: center
+    padding: 1rem 0
+
+    img
+        max-width: 232px
+        max-height: 250px
+        border-radius: variables.$container-border-radius
+        border: solid #623CEA 1px
+
+    .title
+        color: #623CEA
+        background-color: variables.$body-background-color
+        border-radius: variables.$card-border-radius
+        margin-top: 2rem
+        padding: .8rem 1.2rem
+        max-width: 90%
+
+    .btn
+        @include modules.btn
+
+    @media (min-width: 1024px) 
+                width: 40%
+                max-height: 100%

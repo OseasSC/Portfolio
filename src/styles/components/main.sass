@@ -1,0 +1,70 @@
+@use '../variables'
+@use '../modules'
+
+#credits-1
+            color: variables.$text-color
+
+#credits-2
+            color: variables.$text-color
+
+#main-content
+    background-color: variables.$background-color
+    flex: 2 1 0
+    border-radius: variables.$container-border-radius
+    padding: 1rem
+
+    section
+        display: flex
+        flex-direction: column
+
+    h2
+        color: variables.$text-color
+        font-size: 2.2rem
+        margin-bottom: 1.3rem
+        @include modules.center
+        justify-content: start
+        gap: 1rem
+
+        &:after
+            @include modules.gradient-border-longer
+            
+
+    p
+        color: variables.$text-color-secondary
+        margin-bottom: 1rem
+        line-height: 1.3rem
+
+    .btn
+        align-self: start
+        @include modules.btn
+        margin-top: 1rem
+
+    .btn-project
+                width: 0.5rem
+                height: 0.5rem
+                font-size: 0.5rem
+                @include modules.btn-project
+    
+
+    .projects-grid
+        display: flex
+        flex-wrap: wrap
+        gap: 1rem
+
+    .projects-card
+        @include modules.center
+        display: flex
+        gap: 1rem
+        padding: 0.8rem
+        border: 1px solid #623CEA
+        width: 100%
+        border-radius: variables.$card-border-radius
+        align-content: left
+        justify-content: left
+        p
+            font-size: 0.8rem
+            display: flex
+            text-align: left
+
+
+        
