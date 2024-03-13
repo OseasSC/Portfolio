@@ -20,7 +20,9 @@ const Projects = () => {
               <p>
                   React, Typescript, CSS
               </p>
-              <a href="https://kenzie-jobs-t17-tsunode-rcoelhomf.vercel.app" target="_blank" className="btn-project">Ver Projeto</a>
+              <div className="projects-btn">
+              <a href="https://kenzie-jobs-t17-tsunode-rcoelhomf.vercel.app" target="_blank" className="btn-project">Abrir Projeto</a>
+              </div>
           </h3>
           </div>
 
@@ -32,9 +34,12 @@ const Projects = () => {
               Permite a pesquisa pelo nome de usuário do GitHub e mostra seus repositórios com descrição e link.
               </p>
               <p>
-                  Javascript, CSS
+                  Javascript, CSS; Integração com API REST
               </p>
-              <a href="https://react-entrega-kenzie-hub-oseas-kfikx7ze6-oseassc.vercel.app/" target="_blank" className="btn-project">Ver Projeto</a>
+              <div className="projects-btn">
+              <a href="https://react-entrega-kenzie-hub-oseas-kfikx7ze6-oseassc.vercel.app/" target="_blank" className="btn-project">Abrir Projeto</a>
+              <a href="https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-kenzie-hub_OseasSC" target="_blank" className="btn-project">Ver Código</a>
+              </div>
           </h3>
           </div>
           
@@ -47,7 +52,10 @@ const Projects = () => {
               <p>
                   Javascript, React, CSS.
               </p>
-              <a href="https://m3-s1-entrega-portfolio-template-oseas-sc.vercel.app/" target="_blank" className="btn-project">Ver Projeto</a>
+              <div className="projects-btn">
+              <a href="https://m3-s1-entrega-portfolio-template-oseas-sc.vercel.app/" target="_blank" className="btn-project">Abrir Projeto</a>
+              <a href="https://github.com/Kenzie-Academy-Brasil-Developers/m3-s1-entrega-portfolio-template_OseasSC" target="_blank" className="btn-project">Ver Código</a>
+              </div>
           </h3>
           </div>
         </section>
