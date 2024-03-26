@@ -9,7 +9,7 @@ const Header = () => {
         <p className="title">Fullstack Developer</p>
         <Social />
         <Info />
-        <a href="https://docs.google.com/document/d/10Dzz0oT5kXCW0YHw5BwvD8AQ4ptAzqPKZplWJJ_Cnn0/edit?usp=sharing" target="_blank" className="btn">
+        <a href="https://drive.google.com/file/d/1HJULqGV6WNlWPF11VcE7RheVO6ZddxA_/view?usp=sharing" target="_blank" className="btn">
         Open Resume
         </a>
 
