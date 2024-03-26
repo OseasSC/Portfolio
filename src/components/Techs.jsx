@@ -6,7 +6,6 @@ import {
     DiPython,
     DiHtml5,
     DiCss3,
-    DiMysql,
     DiSass
   } from "react-icons/di";
 import { BiLogoTypescript, BiLogoDjango } from "react-icons/bi";
@@ -28,7 +27,7 @@ const technologies = [
 const Techs = () => {
     return(
         <section className="technologies-container">
-            <h2>Tecnologias</h2>
+            <h2>Technologies</h2>
             <div className="technologies-grid">
             {technologies.map((tech) => (
           <div className="technology-card" id={tech.id} key={tech.id}>

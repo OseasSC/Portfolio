@@ -7,9 +7,10 @@ function App() {
 
   return (
     <>
-        <section id="name-container">
-        <h1 id="name">Vitor Oséas</h1>
-        </section>
+      <section id="name-container">
+        <h1 id="name">Vitor Oséas Stoterau</h1>
+      </section>
+      
       <div id="portfolio">
         <Header />
         <Main />

@@ -1,12 +1,12 @@
 const About = () => {
     return (
       <section className="about-container">
-        <h2>Sobre</h2>
+        <h2>About</h2>
         <p>
-          Bem-vindo ao meu portfólio!
+          This is my portfolio!
         </p>
         <p>
-          Aqui você encontrará uma lista das tecnologias nas quais tenho experiência, bem como alguns dos projetos nos quais eu trabalhei.
+          Here you will find a couple of projects I developed or was part of.
         </p>
       </section>
     );
